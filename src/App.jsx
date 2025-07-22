@@ -8,6 +8,7 @@ import {
 
 // Loader Component
 import Loader from "./components/Loader";
+import ScrollToTop from "./components/ScrollToTop"; // 👈 Import here
 
 // Layout
 import Navbar from "./components/Navbar";
@@ -89,7 +90,7 @@ const AppContent = () => {
 
   useEffect(() => {
     setLoading(true);
-    const timer = setTimeout(() => setLoading(false), 1000); // You can adjust duration
+    const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
@@ -119,6 +120,7 @@ const AppContent = () => {
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <AppContent />
     </Router>
   );

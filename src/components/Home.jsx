@@ -43,7 +43,7 @@ const Home = () => {
                     {/* CTA Button */}
                     <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
                         <a
-                            href="/HuzaifaResume.pdf"
+                            href="/Huzaifa-Resume.pdf"
                             download
                             className="bg-green-400 text-gray-900 font-semibold px-6 py-3 rounded-full shadow hover:bg-green-500 transition flex items-center gap-2 text-sm sm:text-base"
                         >
