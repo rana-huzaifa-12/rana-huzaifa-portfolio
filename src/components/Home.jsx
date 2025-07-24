@@ -32,13 +32,13 @@ const Home = () => {
                     {/* Heading */}
                     <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold leading-tight text-gray-900 mb-4">
                         I'm Rana Huzaifa <br />
-                        <span className="text-green-400 font-black">Aspiring MERN Developer</span>
+                        <span className="text-green-400 font-black">MERN Stack Developer</span>
                     </h1>
+
 
                     {/* Description */}
                     <p className="text-gray-600 max-w-xl mb-8 text-sm sm:text-base">
-                        I'm a passionate React developer crafting responsive, modern interfaces using Tailwind CSS, Swiper.js, and AOS.
-                    </p>
+                        I'm a passionate MERN Stack Developer, creating responsive, modern interfaces with React, Tailwind CSS, Swiper.js, and AOS — while also building powerful back-end systems using Node.js, Express, and MongoDB.                    </p>
 
                     {/* CTA Button */}
                     <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">

@@ -5,14 +5,7 @@ const skills = [
         title: "HTML5 & CSS3",
         description: "Structured, semantic markup with modern responsive styling for clean and accessible UIs.",
     },
-    {
-        title: "JavaScript (ES6+)",
-        description: "Dynamic, interactive functionality using modern ES6+ syntax, DOM manipulation, and logic.",
-    },
-    {
-        title: "React.js",
-        description: "Built scalable front-end apps using components, hooks, props, state, and routing.",
-    },
+
     {
         title: "Tailwind CSS",
         description: "Rapid UI development with utility-first classes for pixel-perfect responsive design.",
@@ -21,6 +14,15 @@ const skills = [
         title: "Bootstrap 5",
         description: "Quick layout building using Bootstrap grid, responsive utilities, and components.",
     },
+    {
+        title: "JavaScript (ES6+)",
+        description: "Dynamic, interactive functionality using modern ES6+ syntax, DOM manipulation, and logic.",
+    },
+    {
+        title: "React.js",
+        description: "Built scalable front-end apps using components, hooks, props, state, and routing.",
+    },
+
     {
         title: "Git & GitHub",
         description: "Version control, branch management, and collaborative coding using Git workflows.",
@@ -37,11 +39,22 @@ const skills = [
         title: "API Integration",
         description: "Connected front-end with backend via REST APIs, using `fetch` and `axios` for data flow.",
     },
+
     {
+        title: "Node.js",
+        description: "Built fast, scalable backend logic and server-side APIs using JavaScript with Node.js.",
+    },
+    {
+        title: "Express.js",
+        description: "Created RESTful APIs and middleware-based server logic with Express for full-stack apps.",
+    },
+    {
+        title: "MongoDB",
+        description: "Designed flexible NoSQL databases with Mongoose for dynamic and scalable data management.",
+    }, {
         title: "Deployment",
         description: "Project deployment using Netlify, Vercel, or Firebase for hosting and CI/CD pipelines.",
     },
-
 ];
 
 const Skills2 = () => {

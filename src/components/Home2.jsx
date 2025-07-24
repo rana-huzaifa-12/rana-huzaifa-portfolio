@@ -33,8 +33,7 @@ const Home2 = (props) => {
 
                     {/* Description */}
                     <p className="max-w-xl text-gray-600 mb-10">
-                        I'm currently working as a Front-End Developer, crafting responsive and interactive interfaces using tools like React, Tailwind CSS, and Swiper.js. But I'm also an aspiring MERN Stack Developer because I want to go beyond the UI — to build full-stack applications that solve real-world problems end-to-end. From MongoDB and Express to React and Node.js, I'm passionate about creating scalable, efficient, and modern web solutions.
-                    </p>
+                        I'm a MERN Stack Developer, building full-stack web applications that are both visually engaging and functionally robust. On the front end, I craft responsive and interactive interfaces using React, Tailwind CSS, and Swiper.js. On the back end, I leverage MongoDB, Express, and Node.js to create scalable, secure, and efficient solutions. My goal is to develop modern web apps that solve real-world problems from end to end — blending great user experiences with powerful backend systems                    </p>
 
                     {/* Stats */}
                     <div className="flex flex-wrap justify-center lg:justify-start gap-8 mb-12">
