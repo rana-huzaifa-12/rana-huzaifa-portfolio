@@ -3,13 +3,14 @@ import { FaFolderOpen } from "react-icons/fa";
 
 const projectData = [
     {
-        title: "Go Live",
-        description: "A modern web app for real-time chatting and live streaming.",
-        image: "/golive2.png",
-        fallback:
-            "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/93ad8567-297d-4d32-8fb7-39cbeb48591a.png",
-        url: "https://huzaifagolive.netlify.app",
+        title: "Pakistan Mart",
+        description: "A MERN Based Shopping Store For Buiness.",
+        image: "/pmss.png",
+        fallback: "https://placehold.co/700x525?text=Image+Not+Available",
+        url: "https://www.pakistanmart.store/",
+
     },
+
     {
         title: "Huzaifa Builds",
         description: "A construction project platform with a sleek UI.",
@@ -31,6 +32,14 @@ const projectData = [
         fallback: "https://placehold.co/700x525?text=Weather+App",
         url: "https://quick-bite-126.netlify.app/",
     },
+    {
+        title: "Go Live",
+        description: "A modern web app for real-time chatting and live streaming.",
+        image: "/golive2.png",
+        fallback:
+            "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/93ad8567-297d-4d32-8fb7-39cbeb48591a.png",
+        url: "https://huzaifagolive.netlify.app",
+    }
 ];
 
 const Projects2 = () => {
