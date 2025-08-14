@@ -55,8 +55,8 @@ const Home3 = () => {
                         <article className="border border-green-400 shadow-xl shadow-gray-300 rounded-lg overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-lg">
                             <div className="aspect-w-4 aspect-h-3 bg-gradient-to-br from-blue-50 to-white">
                                 <img
-                                    src="/golive2.png"
-                                    alt="Flight app interface"
+                                    src="/pmss.png"
+                                    alt="Pakistan Mart"
                                     loading="lazy"
                                     onError={(e) => {
                                         e.target.onerror = null;
@@ -67,7 +67,7 @@ const Home3 = () => {
                                 />
                             </div>
                             <div className="p-4 flex justify-between items-center">
-                                <span className="text-sm text-gray-600">Go Live</span>
+                                <span className="text-sm text-gray-600">Pakistan Mart</span>
                                 <div className="h-8 w-8 flex items-center justify-center border border-green-400 rounded-full text-green-400 transition-colors">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
